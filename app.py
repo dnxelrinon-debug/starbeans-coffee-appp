@@ -235,4 +235,10 @@ if st.button("Place Order"):
         phone = st.text_input("GCash Number")
 
     if st.button("Confirm Payment"):
+
         st.success("✅ Payment Successful!")
+
+page = st.sidebar.selectbox(
+    "Navigation",
+    ["Order Coffee", "Dashboard", "Feedback", "About"]
+)
