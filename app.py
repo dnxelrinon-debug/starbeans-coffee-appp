@@ -242,6 +242,5 @@ page = st.sidebar.selectbox(
     "Navigation",
     ["Order Coffee", "Dashboard", "Feedback", "About"]
 )
-elif page == "Feedback":
-elif page == "About":
+
 
